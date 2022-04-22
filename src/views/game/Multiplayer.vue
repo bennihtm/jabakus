@@ -42,8 +42,8 @@ export default {
     },
     methods: {
     rng() {
-        this.num0 = Math.floor(Math.random() * 10);
-        this.num1 = Math.floor(Math.random() * 10);
+        this.num0 = Math.floor(Math.random() * 10 + 1);
+        this.num1 = Math.floor(Math.random() * 10 + 1);
         this.correctAnswer = Math.floor(Math.random() * 4)
     },
     main() {
