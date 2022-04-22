@@ -1,3 +1,3 @@
 <template>
-    hallo
+    Hallo Welt. Hier wird noch gearbeitet.
 </template>
