@@ -1,29 +1,20 @@
-<script setup>
-import ButtonRepo from '@/components/ButtonRepo.vue'
-</script>
-
 <template>
-  <div class="bg-gray-50">
-    <div
-      class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8"
-    >
-      <h2
-        class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
-      >
-        About Page
-        <br />
-        <span class="text-indigo-600">Vite + Vue 3 + Tailwind CSS</span>
-      </h2>
-      <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-        <div class="inline-flex rounded-md shadow">
-          <router-link
-            to="/"
-            class="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-indigo-500 focus:outline-none"
-            >Back Home</router-link
-          >
+      <div class="w-full max-w-xl p-3">
+        <h1 class="font-bold text-5xl text-center text-red-500">
+          Über uns
+        </h1>
+        <p class="font-bold text-1xl text-center text-red-400">Ein paar coole Leute</p>
+        <div class="bg-slate-900 dark:bg-slate-700 p-12 rounded-lg shadow-lg w-full mt-8">
+          <h2 class="font-bold text-2xl text-center text-red-300"></h2>
+          <p class="font-normal text-1xl text-center text-red-300">
+            Jabakus ist dadurch entstanden, dass 
+          </p>
+          <p class="font-normal text-1xl text-center text-red-300">
+            Du sammelst Punkte, indem du Matheaufgaben richtig beantwortest.
+          </p>
+          <p class="font-normal text-1xl text-center text-red-300">
+            
+          </p>
         </div>
-        <ButtonRepo />
       </div>
-    </div>
-  </div>
 </template>

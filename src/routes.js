@@ -1,10 +1,21 @@
 import Home from './views/Home.vue'
-import About from './views/About.vue'
+const Select = () => import('./views/Select.vue')
+const About = () => import('./views/About.vue')
+const Singleplayer = () => import('./views/game/Singleplayer.vue')
+const Multiplayer = () => import('./views/game/Multiplayer.vue')
+const Lobby = () => import('./views/game/Lobby.vue')
 import NotFound from './views/NotFound.vue'
+
+// const UserDetails = () => import('./views/UserDetails')
 
 /** @type {import('vue-router').RouterOptions['routes']} */
 export const routes = [
   { path: '/', component: Home, meta: { title: 'Home' } },
+  { path: '/select', component: Select, meta: { title: 'Gamemode auswählen' } },
+  { path: '/lobby', component: Lobby, meta: { title: 'Lobby' } },
+  { path: '/game', component: Singleplayer, meta: { title: 'Singleplayer' } },
+  { path: '/multiplayer/:id', component: Select, meta: { title: 'Multiplayer' } },
+
   {
     path: '/about',
     meta: { title: 'About' },
