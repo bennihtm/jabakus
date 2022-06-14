@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         sans: ['"Inter var"', ...defaultTheme.fontFamily.sans],
       },
+      backgroundImage: {
+        'splash': "linear-gradient(0deg, rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/random/1920x1080?nature,nature')",
+      },
     },
     darkMode: 'class'
   },

@@ -4,7 +4,7 @@
           {{message}}
         </h1>
         <p class="font-bold text-1xl text-center text-blue-400">{{toast}}</p>
-        <div class="bg-slate-900 dark:bg-slate-700 p-12 rounded-lg shadow-lg w-full mt-8">
+        <div class="bg-slate-900 p-12 rounded-lg shadow-lg w-full mt-8">
             <div class="p-6 rounded-b">
                 <button @click="countGuess(0)" class="w-full text-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
                 {{buttonlayout[0]}}
