@@ -4,7 +4,7 @@
           Über uns
         </h1>
         <p class="font-bold text-1xl text-center text-red-400">Ein paar coole Leute</p>
-        <div class="bg-slate-900 dark:bg-slate-700 p-12 rounded-lg shadow-lg w-full mt-8">
+        <div class="bg-slate-900 p-12 rounded-lg shadow-lg w-full mt-8">
           <h2 class="font-bold text-2xl text-center text-red-300"></h2>
           <p class="font-normal text-1xl text-center text-red-300">
             Jabakus ist dadurch entstanden, dass 
