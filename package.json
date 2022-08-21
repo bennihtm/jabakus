@@ -7,7 +7,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^1.35.4",
+    "@supabase/supabase-js": "^1.35.6",
     "vue": "^3.2.37",
     "vue-router": "^4.1.3"
   },
